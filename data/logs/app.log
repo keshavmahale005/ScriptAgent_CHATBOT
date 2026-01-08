@@ -1,0 +1,232 @@
+2026-01-07 15:37:12,213 - core.script_parser - INFO - Starting script parsing...
+2026-01-07 15:37:12,213 - core.script_parser - INFO - Extracted metadata: ['company', 'language', 'call type', 'style', 'always sound warm and natural']
+2026-01-07 15:37:12,214 - core.script_parser - INFO - Found variables: {'mobile', 'bedrooms', 'property_address', 'time', 'first_name', 'email', 'date', 'postcode', 'last_name', 'title'}
+2026-01-07 15:37:12,216 - core.script_parser - INFO - Parsing complete: {'total_lines': 242, 'agent_lines': 3, 'sections': 29, 'conditionals': 0}
+2026-01-07 15:37:12,218 - __main__ - ERROR - Error loading script: SemanticMatcher.__init__() got an unexpected keyword argument 'embedding_model'
+2026-01-07 15:50:47,721 - core.script_parser - INFO - Starting script parsing...
+2026-01-07 15:50:47,721 - core.script_parser - INFO - Extracted metadata: ['company', 'language', 'call type', 'style', 'always sound warm and natural']
+2026-01-07 15:50:47,722 - core.script_parser - INFO - Found variables: {'date', 'postcode', 'title', 'mobile', 'last_name', 'email', 'first_name', 'property_address', 'time', 'bedrooms'}
+2026-01-07 15:50:47,725 - core.script_parser - INFO - Parsing complete: {'total_lines': 242, 'agent_lines': 3, 'sections': 29, 'conditionals': 0}
+2026-01-07 15:50:47,805 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 15:50:47,905 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 15:50:47,921 - __main__ - ERROR - Error loading script: Ollama is not running or not accessible.
+Please start Ollama with: ollama serve
+Error: 'name'
+2026-01-07 15:51:56,076 - core.script_parser - INFO - Starting script parsing...
+2026-01-07 15:51:56,076 - core.script_parser - INFO - Extracted metadata: ['company', 'language', 'call type', 'style', 'always sound warm and natural']
+2026-01-07 15:51:56,076 - core.script_parser - INFO - Found variables: {'title', 'postcode', 'first_name', 'date', 'last_name', 'property_address', 'time', 'bedrooms', 'mobile', 'email'}
+2026-01-07 15:51:56,079 - core.script_parser - INFO - Parsing complete: {'total_lines': 242, 'agent_lines': 3, 'sections': 29, 'conditionals': 0}
+2026-01-07 15:51:56,091 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 15:51:56,117 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 15:51:56,144 - __main__ - ERROR - Error loading script: Ollama is not running or not accessible.
+Please start Ollama with: ollama serve
+Error: 'name'
+2026-01-07 16:00:02,402 - core.script_parser - INFO - Starting script parsing...
+2026-01-07 16:00:02,402 - core.script_parser - INFO - Extracted metadata: ['company', 'language', 'call type', 'style', 'always sound warm and natural']
+2026-01-07 16:00:02,403 - core.script_parser - INFO - Found variables: {'first_name', 'postcode', 'date', 'title', 'mobile', 'email', 'property_address', 'time', 'bedrooms', 'last_name'}
+2026-01-07 16:00:02,405 - core.script_parser - INFO - Parsing complete: {'total_lines': 242, 'agent_lines': 3, 'sections': 29, 'conditionals': 0}
+2026-01-07 16:00:02,410 - __main__ - INFO - Script loaded successfully
+2026-01-07 16:00:07,634 - __main__ - INFO - Call started
+2026-01-07 16:00:16,922 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 16:00:16,923 - __main__ - INFO - Intent: NEUTRAL, Keywords: ['hello']
+2026-01-07 16:00:16,953 - __main__ - ERROR - Error processing message: 'OllamaEngine' object has no attribute 'generate_response'
+2026-01-07 16:05:35,843 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 16:05:35,843 - __main__ - INFO - Intent: NEUTRAL, Keywords: ['hello']
+2026-01-07 16:05:35,845 - __main__ - ERROR - Error processing message: 'OllamaEngine' object has no attribute 'generate_response'
+2026-01-07 16:07:59,826 - core.script_parser - INFO - Starting script parsing...
+2026-01-07 16:07:59,826 - core.script_parser - INFO - Extracted metadata: ['company', 'language', 'call type', 'style', 'always sound warm and natural']
+2026-01-07 16:07:59,827 - core.script_parser - INFO - Found variables: {'email', 'property_address', 'postcode', 'title', 'bedrooms', 'first_name', 'last_name', 'mobile', 'time', 'date'}
+2026-01-07 16:07:59,830 - core.script_parser - INFO - Parsing complete: {'total_lines': 242, 'agent_lines': 3, 'sections': 29, 'conditionals': 0}
+2026-01-07 16:07:59,836 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 16:07:59,886 - __main__ - INFO - Script loaded successfully
+2026-01-07 16:08:01,185 - __main__ - INFO - Call started
+2026-01-07 16:08:05,664 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 16:08:05,666 - __main__ - INFO - Intent: NEUTRAL, Keywords: ['hello']
+2026-01-07 16:08:26,782 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:08:26,786 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:08:54,500 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 16:08:54,501 - __main__ - INFO - Intent: NEUTRAL, Keywords: ['inbound', 'outbound', 'call']
+2026-01-07 16:09:18,101 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:09:18,148 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)', 'Possible hallucination detected']
+2026-01-07 16:09:18,156 - __main__ - WARNING - Validation failed, using exact script
+2026-01-07 16:09:46,874 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 16:09:46,875 - __main__ - INFO - Intent: NEUTRAL, Keywords: ['hello']
+2026-01-07 16:09:56,624 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:09:56,637 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:18:00,772 - core.script_parser - INFO - Starting script parsing...
+2026-01-07 16:18:00,773 - core.script_parser - INFO - Extracted metadata: ['company', 'language', 'call type', 'style', 'always sound warm and natural']
+2026-01-07 16:18:00,773 - core.script_parser - INFO - Found variables: {'date', 'email', 'postcode', 'mobile', 'first_name', 'bedrooms', 'time', 'property_address', 'title', 'last_name'}
+2026-01-07 16:18:00,776 - core.script_parser - INFO - Parsing complete: {'total_lines': 242, 'agent_lines': 3, 'sections': 29, 'conditionals': 0}
+2026-01-07 16:18:00,777 - __main__ - INFO - Detected call type: outbound
+2026-01-07 16:18:00,785 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 16:18:00,825 - __main__ - INFO - Script loaded successfully
+2026-01-07 16:18:09,421 - __main__ - INFO - Call started - Type: outbound
+2026-01-07 16:18:23,479 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 16:18:23,482 - __main__ - INFO - Intent: NEUTRAL, Keywords: ['hello']
+2026-01-07 16:19:05,337 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:19:05,350 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:19:42,377 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 16:19:42,377 - __main__ - INFO - Intent: POSITIVE, Keywords: ['yes']
+2026-01-07 16:20:00,574 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:20:00,576 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:20:10,018 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 16:20:10,020 - __main__ - INFO - Intent: POSITIVE, Keywords: ['yes']
+2026-01-07 16:20:27,549 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:20:27,555 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:22:58,322 - core.script_parser - INFO - Starting script parsing...
+2026-01-07 16:22:58,323 - core.script_parser - INFO - Extracted metadata: ['company', 'language', 'call type', 'style', 'always sound warm and natural']
+2026-01-07 16:22:58,323 - core.script_parser - INFO - Found variables: {'first_name', 'email', 'property_address', 'date', 'last_name', 'bedrooms', 'postcode', 'mobile', 'time', 'title'}
+2026-01-07 16:22:58,326 - core.script_parser - INFO - Parsing complete: {'total_lines': 242, 'agent_lines': 3, 'sections': 29, 'conditionals': 0}
+2026-01-07 16:22:58,327 - __main__ - INFO - Detected call type: outbound
+2026-01-07 16:22:58,336 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 16:22:58,375 - __main__ - INFO - Script loaded successfully
+2026-01-07 16:22:59,611 - __main__ - INFO - Call started - Type: outbound
+2026-01-07 16:23:07,566 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 16:23:07,567 - __main__ - INFO - Intent: NEUTRAL, Keywords: ['hello']
+2026-01-07 16:23:51,190 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:23:51,217 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:24:19,895 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 16:24:19,896 - __main__ - INFO - Intent: POSITIVE, Keywords: ['yes']
+2026-01-07 16:25:03,569 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:25:03,588 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:25:18,830 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 16:25:18,830 - __main__ - INFO - Intent: POSITIVE, Keywords: ['yes']
+2026-01-07 16:26:04,416 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:26:04,421 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:26:17,041 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 16:26:17,045 - __main__ - INFO - Intent: NEUTRAL, Keywords: ['govind', 'nagar', 'nashik']
+2026-01-07 16:26:48,634 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:26:48,634 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:27:34,745 - core.intent_detector - INFO - Intent detection: OBJECTION (confidence: 0.12)
+2026-01-07 16:27:34,745 - __main__ - INFO - Intent: OBJECTION, Keywords: ['exactly', 'will', 'tell', 'property', 'give', 'brief', 'idea', 'then', 'will', 'tell']
+2026-01-07 16:28:25,905 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:28:25,915 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:28:40,650 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 16:28:40,651 - __main__ - INFO - Intent: POSITIVE, Keywords: ['yes', 'good']
+2026-01-07 16:29:08,607 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:29:08,609 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:29:47,980 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 16:29:47,980 - __main__ - INFO - Intent: NEUTRAL, Keywords: ['location', 'nashik', 'size', '400', 'squarefoot']
+2026-01-07 16:30:23,746 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:30:23,750 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:30:31,757 - core.intent_detector - INFO - Intent detection: NEGATIVE (confidence: 0.14)
+2026-01-07 16:30:31,757 - __main__ - INFO - Intent: NEGATIVE, Keywords: []
+2026-01-07 16:31:02,057 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:31:02,059 - core.validator - WARNING - Validation failed: ['Low script overlap (0.00%)']
+2026-01-07 16:52:29,424 - core.script_parser - INFO - Starting script parsing...
+2026-01-07 16:52:29,425 - core.script_parser - INFO - Extracted metadata: ['company', 'language', 'call type', 'style', 'always sound warm and natural']
+2026-01-07 16:52:29,425 - core.script_parser - INFO - Found variables: {'title', 'bedrooms', 'postcode', 'time', 'last_name', 'date', 'mobile', 'property_address', 'email', 'first_name'}
+2026-01-07 16:52:29,428 - core.script_parser - INFO - Parsing complete: {'total_lines': 242, 'agent_lines': 3, 'sections': 29, 'conditionals': 0}
+2026-01-07 16:52:29,429 - __main__ - INFO - Detected call type: outbound
+2026-01-07 16:52:29,436 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 16:52:29,519 - core.script_flow_engine - INFO - Script Flow Engine initialized with 29 sections
+2026-01-07 16:52:29,520 - __main__ - INFO - Script loaded successfully with flow engine
+2026-01-07 16:52:30,905 - __main__ - INFO - Call started - Type: outbound, Section: GENERAL
+2026-01-07 16:52:40,006 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 16:52:40,006 - __main__ - INFO - Intent: POSITIVE, User said: yes
+2026-01-07 16:52:40,007 - __main__ - INFO - Flow: Section=Agent Name: Clare, Phase=CONVERSATION
+2026-01-07 16:53:13,237 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 16:53:37,663 - core.intent_detector - INFO - Intent detection: QUESTION (confidence: 0.10)
+2026-01-07 16:53:37,664 - __main__ - INFO - Intent: QUESTION, User said: why are you called me
+2026-01-07 16:53:37,665 - __main__ - INFO - Flow: Section=Call Type: Outbound Client Qualification, Phase=CONVERSATION
+2026-01-07 16:54:20,492 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 17:04:17,118 - core.script_parser - INFO - Starting script parsing...
+2026-01-07 17:04:17,118 - core.script_parser - INFO - Extracted metadata: ['company', 'language', 'call type', 'style', 'always sound warm and natural']
+2026-01-07 17:04:17,120 - core.script_parser - INFO - Found variables: {'mobile', 'property_address', 'bedrooms', 'email', 'date', 'title', 'time', 'last_name', 'postcode', 'first_name'}
+2026-01-07 17:04:17,123 - core.script_parser - INFO - Parsing complete: {'total_lines': 242, 'agent_lines': 3, 'sections': 29, 'conditionals': 0}
+2026-01-07 17:04:17,124 - __main__ - INFO - Detected call type: outbound
+2026-01-07 17:04:17,129 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 17:04:17,260 - core.script_flow_engine - INFO - Script Flow Engine initialized with 29 sections
+2026-01-07 17:04:17,262 - __main__ - INFO - Script loaded successfully with flow engine
+2026-01-07 17:04:18,583 - __main__ - INFO - Call started - Type: outbound, Section: GENERAL
+2026-01-07 17:04:30,018 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 17:04:30,019 - __main__ - INFO - Intent: NEUTRAL, User said: hii'
+2026-01-07 17:04:30,019 - __main__ - INFO - Flow: Section=Agent Name: Clare, Phase=CONVERSATION
+2026-01-07 17:05:05,586 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 17:05:14,499 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 17:05:14,500 - __main__ - INFO - Intent: NEUTRAL, User said: hii
+2026-01-07 17:05:14,500 - __main__ - INFO - Flow: Section=Call Type: Outbound Client Qualification, Phase=CONVERSATION
+2026-01-07 17:05:19,684 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 17:05:19,685 - __main__ - INFO - Intent: NEUTRAL, User said: hello
+2026-01-07 17:05:19,686 - __main__ - INFO - Flow: Section=Agent (Clare):, Phase=CONVERSATION
+2026-01-07 17:05:49,644 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 17:17:03,224 - __main__ - INFO - Detected call type: outbound
+2026-01-07 17:17:03,228 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 17:17:03,245 - core.script_flow_engine - INFO - Script Flow Engine initialized with 32 sections
+2026-01-07 17:17:03,245 - __main__ - INFO - Script loaded successfully with flow engine
+2026-01-07 17:17:04,756 - __main__ - INFO - Call started - Type: outbound, Section: CALL START
+2026-01-07 17:17:14,319 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 17:17:14,320 - __main__ - INFO - Intent: POSITIVE, User said: yes
+2026-01-07 17:17:14,320 - __main__ - INFO - Flow: Section=INTRODUCTION, Phase=INTRODUCTION
+2026-01-07 17:17:26,736 - core.intent_detector - INFO - Intent detection: QUESTION (confidence: 0.10)
+2026-01-07 17:17:26,737 - __main__ - INFO - Intent: QUESTION, User said: what
+2026-01-07 17:17:26,738 - __main__ - INFO - Flow: Section=INTRODUCTION, Phase=INTRODUCTION
+2026-01-07 17:23:35,824 - __main__ - INFO - Detected call type: outbound
+2026-01-07 17:23:35,830 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 17:23:35,847 - core.script_flow_engine - INFO - Script Flow Engine initialized with 32 sections
+2026-01-07 17:23:35,847 - __main__ - INFO - Script loaded successfully with flow engine
+2026-01-07 17:23:37,087 - __main__ - INFO - Call started - Type: outbound, Section: CALL START
+2026-01-07 17:23:41,788 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 17:23:41,788 - __main__ - INFO - Intent: POSITIVE, User said: yes
+2026-01-07 17:23:41,788 - __main__ - INFO - Flow: Section=INTRODUCTION, Phase=INTRODUCTION
+2026-01-07 17:23:46,178 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 17:23:46,181 - __main__ - INFO - Intent: POSITIVE, User said: ok
+2026-01-07 17:23:46,181 - __main__ - INFO - Flow: Section=PERSONAL DETAILS COLLECTION, Phase=DATA_COLLECTION
+2026-01-07 17:24:17,539 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 17:25:37,300 - core.intent_detector - INFO - Intent detection: QUESTION (confidence: 0.10)
+2026-01-07 17:25:37,300 - __main__ - INFO - Intent: QUESTION, User said: then what
+2026-01-07 17:25:37,301 - __main__ - INFO - Flow: Section=PERSONAL DETAILS COLLECTION, Phase=DATA_COLLECTION
+2026-01-07 17:40:18,841 - __main__ - INFO - Detected call type: outbound
+2026-01-07 17:40:18,846 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 17:40:18,864 - core.script_flow_engine - INFO - Script Flow Engine initialized with 32 sections
+2026-01-07 17:40:18,865 - __main__ - INFO - Script loaded successfully with flow engine
+2026-01-07 17:40:20,017 - __main__ - INFO - Call started - Type: outbound, Section: CALL START
+2026-01-07 17:40:25,031 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 17:40:25,032 - __main__ - INFO - Intent: POSITIVE, User said: yes
+2026-01-07 17:40:25,032 - __main__ - INFO - Flow: Section=INTRODUCTION, Phase=INTRODUCTION
+2026-01-07 17:50:08,138 - __main__ - INFO - Detected call type: outbound
+2026-01-07 17:50:08,141 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 17:50:08,159 - core.script_flow_engine - INFO - Script Flow Engine initialized with 32 sections
+2026-01-07 17:50:08,161 - __main__ - INFO - Script loaded successfully with flow engine
+2026-01-07 17:50:09,162 - __main__ - INFO - Call started - Type: outbound, Section: CALL START
+2026-01-07 17:50:15,861 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 17:50:15,861 - __main__ - INFO - Intent: POSITIVE, User said: yes
+2026-01-07 17:50:15,861 - __main__ - INFO - Flow: Section=INTRODUCTION, Phase=INTRODUCTION
+2026-01-07 17:50:19,084 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 17:50:19,085 - __main__ - INFO - Intent: POSITIVE, User said: ok
+2026-01-07 17:50:19,085 - __main__ - INFO - Flow: Section=PERSONAL DETAILS COLLECTION, Phase=DATA_COLLECTION
+2026-01-07 17:51:08,239 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-01-07 17:52:41,665 - __main__ - INFO - Detected call type: outbound
+2026-01-07 17:52:41,669 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 17:52:41,689 - core.script_flow_engine - INFO - Script Flow Engine initialized with 36 sections
+2026-01-07 17:52:41,690 - __main__ - INFO - Script loaded successfully with flow engine
+2026-01-07 17:52:44,650 - __main__ - INFO - Call started - Type: outbound, Section: CHAT START
+2026-01-07 17:52:51,798 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 17:52:51,798 - __main__ - INFO - Intent: POSITIVE, User said: yes
+2026-01-07 17:52:51,799 - __main__ - INFO - Flow: Section=CHAT START, Phase=OPENING
+2026-01-07 17:53:10,015 - core.intent_detector - INFO - Intent detection: QUESTION (confidence: 0.10)
+2026-01-07 17:53:10,016 - __main__ - INFO - Intent: QUESTION, User said: why you called me
+2026-01-07 17:53:10,016 - __main__ - INFO - Flow: Section=CHAT START, Phase=OPENING
+2026-01-07 17:53:15,782 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 17:53:15,782 - __main__ - INFO - Intent: NEUTRAL, User said: keshav
+2026-01-07 17:53:15,783 - __main__ - INFO - Flow: Section=CHAT START, Phase=OPENING
+2026-01-07 17:53:20,424 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 17:53:20,425 - __main__ - INFO - Intent: NEUTRAL, User said: mahal
+2026-01-07 17:53:20,425 - __main__ - INFO - Flow: Section=CHAT START, Phase=OPENING
+2026-01-07 18:21:52,466 - __main__ - INFO - Detected call type: outbound
+2026-01-07 18:21:52,470 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-01-07 18:21:52,488 - core.script_flow_engine - INFO - Script Flow Engine initialized with 36 sections
+2026-01-07 18:21:52,490 - __main__ - INFO - Script loaded successfully with flow engine
+2026-01-07 18:21:53,801 - __main__ - INFO - Call started - Type: outbound, Section: CHAT START
+2026-01-07 18:21:58,555 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 18:21:58,556 - __main__ - INFO - Intent: POSITIVE, User said: yes
+2026-01-07 18:21:58,556 - __main__ - INFO - Flow: Section=CHAT START, Phase=OPENING
+2026-01-07 18:22:06,748 - core.intent_detector - INFO - Intent detection: NEUTRAL (confidence: 0.00)
+2026-01-07 18:22:06,749 - __main__ - INFO - Intent: NEUTRAL, User said: keshav mahale
+2026-01-07 18:22:06,749 - __main__ - INFO - Flow: Section=CHAT START, Phase=OPENING
+2026-01-07 18:39:18,334 - core.intent_detector - INFO - Intent detection: POSITIVE (confidence: 0.09)
+2026-01-07 18:39:18,334 - __main__ - INFO - Intent: POSITIVE, User said: ok
+2026-01-07 18:39:18,334 - __main__ - INFO - Flow: Section=CHAT START, Phase=OPENING
+2026-01-07 18:39:25,908 - core.intent_detector - INFO - Intent detection: NEGATIVE (confidence: 0.09)
+2026-01-07 18:39:25,911 - __main__ - INFO - Intent: NEGATIVE, User said: keshav mnahjalwe knkslnc dscndkln
+2026-01-07 18:39:25,911 - __main__ - INFO - Flow: Section=CHAT START, Phase=OPENING

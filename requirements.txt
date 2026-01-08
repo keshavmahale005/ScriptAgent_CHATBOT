@@ -1,0 +1,30 @@
+# ============================================================================
+# RETELL AI CLONE - PYTHON 3.13 COMPATIBLE
+# Using latest versions that support Python 3.13
+# ============================================================================
+
+# Core Framework (latest version that works with Python 3.13)
+streamlit==1.41.1
+numpy==2.2.1
+
+# Ollama
+ollama==0.4.6
+
+# Scikit-learn (instead of sentence-transformers to avoid torch issues)
+scikit-learn==1.6.0
+
+# Text Processing
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.26.1
+
+# Utilities
+python-dotenv==1.0.1
+loguru==0.7.3
+pyyaml==6.0.2
+regex==2024.11.6
+
+# HTTP Client
+httpx==0.28.1
+
+# Additional for better accuracy
+nltk==3.9.1
